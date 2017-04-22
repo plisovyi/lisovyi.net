@@ -1,0 +1,8 @@
+# IDE configuration
+.idea/
+
+# Bundler lock-file
+Gemfile.lock
+
+# Built output
+_site/
