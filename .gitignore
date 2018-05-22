@@ -1,8 +1,12 @@
-# IDE configuration
+# IntelliJ
 .idea/
 
-# Bundler lock-file
+# Bundler
 Gemfile.lock
 
+# NPM
+node_modules
+package-lock.json
+
 # Built output
-_site/
+_site

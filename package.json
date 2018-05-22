@@ -1,0 +1,28 @@
+{
+  "name": "lisovyi.net",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Build tool and dependencies for https://lisovyi.net",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "bundle exec jekyll serve"
+  },
+  "author": "Pavlo Lisovyi",
+  "license": "ISC",
+  "homepage": "https://github.com/plisovyi/lisovyi.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plisovyi/lisovyi.net.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plisovyi/lisovyi.net/issues"
+  },
+  "contributors": [
+    {
+      "name": "Pavlo Lisovyi",
+      "email": "pavlo@lisovyi.net",
+      "url": "https://lisovyi.net"
+    }
+  ],
+  "devDependencies": {}
+}

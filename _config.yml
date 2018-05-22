@@ -1,0 +1,21 @@
+github: [metadata]
+
+exclude: [ CNAME, Gemfile, Gemfile.lock, package.json, package-lock.json, README.md, node_modules, .idea]
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-feed
+
+twitter:
+  username: plisovyi
+  card: summary
+
+social:
+  name: Pavlo Lisovyi
+  links:
+    - https://twitter.com/plisovyi
+    - https://www.facebook.com/plisovyi
+    - https://www.linkedin.com/in/plisovyi/
+    - https://github.com/plisovyi
