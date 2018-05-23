@@ -1,6 +1,6 @@
 github: [metadata]
 
-exclude: [ CNAME, Gemfile, Gemfile.lock, package.json, package-lock.json, README.md, node_modules, .idea]
+exclude: [ CNAME, Gemfile, Gemfile.lock, package.json, package-lock.json, README.md, node_modules, .idea, src ]
 
 plugins:
   - jekyll-sitemap

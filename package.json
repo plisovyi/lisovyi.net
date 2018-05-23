@@ -5,7 +5,10 @@
   "description": "Build tool and dependencies for https://lisovyi.net",
   "scripts": {
     "prestart": "npm install",
-    "start": "bundle exec jekyll serve"
+    "watch-css": "postcss ./src/style.css -o ./assets/css/style.css --watch",
+    "start": "concurrently \"npm run watch-css\" \"bundle exec jekyll serve\"",
+    "build": "postcss ./src/styles.css -o ./dist/styles.css",
+    "precommit": "npm run build"
   },
   "author": "Pavlo Lisovyi",
   "license": "ISC",
@@ -24,5 +27,8 @@
       "url": "https://lisovyi.net"
     }
   ],
-  "devDependencies": {}
+  "devDependencies": {
+    "postcss-cli": "5.0.0",
+    "concurrently": "3.5.1"
+  }
 }
