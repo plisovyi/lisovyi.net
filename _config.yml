@@ -1,6 +1,8 @@
 github: [metadata]
 
-exclude: [ CNAME, Gemfile, Gemfile.lock, package.json, package-lock.json, README.md, node_modules, .idea, src ]
+exclude: [ CNAME, Gemfile, Gemfile.lock, package.json, package-lock.json, README.md, node_modules, .idea, src, tsconfig.json ]
+
+theme:
 
 plugins:
   - jekyll-sitemap
@@ -8,6 +10,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
 
+# For SEO tag plugin
 twitter:
   username: plisovyi
   card: summary
@@ -19,3 +22,13 @@ social:
     - https://www.facebook.com/plisovyi
     - https://www.linkedin.com/in/plisovyi/
     - https://github.com/plisovyi
+
+# data for site
+contact:
+  social:
+    github:
+      url: https://github.com/plisovyi/lisovyi.net
+    twitter:
+      url: https://twitter.com/plisovyi
+    facebook:
+      url: https://facebook.com/plisovyi

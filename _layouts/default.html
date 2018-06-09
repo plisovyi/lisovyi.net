@@ -7,6 +7,69 @@
           href="/assets/css/style.css">
 </head>
 <body>
-{{ content }}
+<div class="layout">
+    <header class="layout__header header">
+        <a class="logo"
+           href="/">
+            <h1 class="logo__title logo__title--primary">
+                Pavlo
+            </h1>
+            <h1 class="logo__title logo__title--secondary">
+                Lisovyi
+            </h1>
+        </a>
+        <h2 class="logo__splash"></h2>
+        <nav class="header__navigation">
+            <ul class="site-navigation">
+                <li class="site-navigation__item">About me</li>
+                <li class="site-navigation__item">Blog</li>
+                <li class="site-navigation__item">Resources</li>
+                <li class="site-navigation__item">CV</li>
+                <li class="site-navigation__item">Contact me</li>
+            </ul>
+        </nav>
+        <div>
+            <a href="/feed.xml"
+               target="_blank">
+                RSS
+            </a>
+        </div>
+    </header>
+
+    <main class="layout__content">
+        {{ content }}
+    </main>
+
+    <footer class="layout__footer footer">
+        <div class="footer__madeWith">
+            Hosted on GithubPages (read all about <a href="#">how it's made</a>)
+        </div>
+
+        <ul class="footer__socialsList">
+            <li class="footer__socialsItem">
+                <a href="{{ site.contact.social.github.url }}"
+                   target="_blank">
+                    GitHub
+                </a>
+            </li>
+            <li class="footer__socialsItem">
+                <a href="{{ site.contact.social.twitter.url }}"
+                   target="_blank">
+                    Twitter
+                </a>
+            </li>
+            <li class="footer__socialsItem">
+                <a href="{{ site.contact.social.facebook.url }}"
+                   target="_blank">
+                    Facebook
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+<script src="/assets/js/system.js"></script>
+<script>
+    SystemJS.import("/assets/js/script.js").then(() => SystemJS.import("main"));
+</script>
 </body>
 </html>

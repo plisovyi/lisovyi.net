@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "preserveWatchOutput": true,
+    "outFile": "assets/js/script.js",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "files": [
+    "src/scripts/main.ts"
+  ]
+}

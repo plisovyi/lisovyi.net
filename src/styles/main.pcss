@@ -1,0 +1,120 @@
+:root {
+  --angle: 45deg;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+}
+
+.layout {
+  min-height: 100vh;
+  max-width: 1024px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-areas: 'header' 'content' 'footer';
+  grid-template-rows: minmax(100px, max-content) 1fr minmax(100px, max-content);
+  grid-template-columns: 1fr;
+
+  &__header {
+    grid-area: header;
+    position: sticky;
+    top: 0;
+  }
+
+  &__content {
+    grid-area: content;
+    margin: 16px 0;
+  }
+
+  &__footer {
+    grid-area: footer;
+  }
+}
+
+.header {
+  background: white;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__navigation {
+    flex-grow: 0.75;
+  }
+}
+
+.logo {
+  margin-top: -2.75rem;
+  color: black;
+
+  &__title {
+    font-size: 1.75em;
+    display: inline-block;
+    margin: 0;
+    padding: .15rem 0.5rem;
+
+    &--primary {
+      background: white;
+    }
+
+    &--secondary {
+      background: rgba(252, 242, 81, 1);
+      text-transform: uppercase;
+      transform: translate(-25%, calc(100% - 0.3em - 0.1em));
+
+      &::after {
+        content: "ua";
+        display: flex;
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 2rem;
+        background: rgba(43, 111, 245, 1);
+        font-size: 1rem;
+        color: white;
+        text-transform: lowercase;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        right: 0;
+        transform: translate(50%, 50%);
+      }
+    }
+  }
+
+  &__splash {
+    height: 14px;
+    font-size: .75em;
+    width: 20%;
+  }
+}
+
+.footer {
+  background: white;
+  box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__socialsList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-grow: 0.20;
+  }
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  display: flex;
+  justify-content: space-evenly;
+}
