@@ -5,7 +5,7 @@
   "description": "Build tool and dependencies for https://lisovyi.net",
   "scripts": {
     "prestart": "npm install && npm run systemjs",
-    "systemjs": "cp ./node_modules/systemjs/dist/system.js ./assets/js/system.js",
+    "systemjs": "cp ./node_modules/systemjs/dist/system.js ./assets/js/system.js; cp ./node_modules/systemjs/dist/extras/named-register.js ./assets/js/system-extra.js",
     "watch-css": "postcss ./src/styles/main.pcss --output ./assets/css/style.css --use postcss-nested --watch",
     "css": "postcss ./src/styles/main.pcss --output ./assets/css/style.css --use postcss-nested",
     "watch-ts": "tsc --watch",
