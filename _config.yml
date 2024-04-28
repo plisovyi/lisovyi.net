@@ -1,0 +1,16 @@
+title: Pavlo Lisovyi — lisovyi.net
+description: >-
+  Pavlo Lisovyi's personal site
+url: "https://lisovyi.net"
+email: pavlo@lisovyi.net
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
