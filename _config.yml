@@ -12,6 +12,5 @@ plugins:
 # Exclude from processing.
 exclude:
   - README.md
-  - CNAME
   - Gemfile
   - Gemfile.lock
