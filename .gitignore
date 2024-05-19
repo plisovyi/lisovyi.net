@@ -1,6 +1,7 @@
 # IDE
 .idea
 !.idea/lisovyi.net.iml
+!.idea/runConfigurations
 !.idea/modules.xml
 !.idea/vcs.xml
 
