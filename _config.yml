@@ -4,12 +4,16 @@ description: >-
 url: "https://lisovyi.net"
 email: pavlo@lisovyi.net
 
-# Build settings
-theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Theme
+remote_theme: jekyll/minima
+minima:
+  skin: auto
 
 # Exclude from processing.
 exclude:
