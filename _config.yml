@@ -18,6 +18,7 @@ minima:
 
 # Exclude from processing.
 exclude:
+  - vendor/
   - README.md
   - Gemfile
   - Gemfile.lock
