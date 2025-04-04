@@ -6,12 +6,9 @@ Personal website built with Jekyll and hosted on GitHub Pages.
 
 ### Prerequisites
 
-- Ruby (version specified in `.ruby-version`)
-- Bundler
+- You need to have `rbenv` installed on your system.
 
-### Setup
-
-#### Ensure you are using correct Ruby version with rbenv
+- You need to run the following commands to install Ruby and dependencies:
 
 ```shell
 # Get the Ruby version from .ruby-version
@@ -28,8 +25,8 @@ bundle install
 
 ### Running locally
 
+The site will be available at http://localhost:4000 after running the following command:
+
 ```shell
 bundle exec jekyll serve
 ```
-
-The site will be available at http://localhost:4000
