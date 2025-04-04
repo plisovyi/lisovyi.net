@@ -11,12 +11,10 @@ plugins:
   - jekyll-sitemap
 
 # Theme
-remote_theme: jekyll/minima@v3.0.0
+remote_theme: jekyll/minima@v2.5.2
 minima:
-  skin: auto
   social_links:
-    - platform: github
-      user_url: "https://github.com/plisovyi"
+    github: plisovyi
 
 # Exclude from processing.
 exclude:

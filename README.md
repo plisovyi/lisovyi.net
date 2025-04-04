@@ -6,29 +6,22 @@ Personal website built with Jekyll and hosted on GitHub Pages.
 
 ### Prerequisites
 
-- Ruby 3.3.4
-- Bundler 2.3.26 or newer
+- Ruby (version specified in `.ruby-version`)
+- Bundler
 
 ### Setup
 
-#### Option 1: Using rbenv
+#### Ensure you are using correct Ruby version with rbenv
 
 ```shell
-rbenv install 3.3.4
-rbenv local 3.3.4
-```
+# Get the Ruby version from .ruby-version
+RUBY_VERSION=$(cat .ruby-version)
 
-#### Option 2: Using asdf
+# Install and set the Ruby version
+rbenv install $RUBY_VERSION
+rbenv local $RUBY_VERSION
 
-```shell
-asdf plugin add ruby
-asdf install ruby 3.3.4
-asdf local ruby 3.3.4
-```
-
-#### Install dependencies
-
-```shell
+# Install dependencies
 gem install bundler
 bundle install
 ```
