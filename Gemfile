@@ -7,6 +7,8 @@ gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 # Recommended by Jekyll and GitHub Pages: https://github.com/github/pages-gem/issues/752
 gem "webrick", "~> 1.8"
+gem "nokogiri", "~> 1.18.7"
+gem "faraday-retry"
 
 group :jekyll_plugins do
 end

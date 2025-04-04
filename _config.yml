@@ -24,3 +24,6 @@ exclude:
   - .git/
   - .github/
   - .gitignore
+  - .sass-cache/
+  - .jekyll-cache/
+  - .bundle/
