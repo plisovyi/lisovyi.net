@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby File.read(".ruby-version").strip
 
-gem "github-pages"
+gem "github-pages", "~> 232"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 # Recommended by Jekyll and GitHub Pages: https://github.com/github/pages-gem/issues/752
