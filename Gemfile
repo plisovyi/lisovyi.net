@@ -2,13 +2,11 @@ source "https://rubygems.org"
 
 ruby File.read(".ruby-version").strip
 
-gem "github-pages", "~> 232"
-gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
+gem "github-pages"
 # Recommended by Jekyll and GitHub Pages: https://github.com/github/pages-gem/issues/752
 gem "webrick", "~> 1.8"
-gem "nokogiri", "~> 1.18.7"
-gem "faraday-retry"
 
 group :jekyll_plugins do
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
 end

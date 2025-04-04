@@ -1,6 +1,7 @@
 ---
 layout: home
 ---
+*Last updated: April 2024*
 
 Hello! I'm Pavlo Lisovyi, a passionate web developer based in 🇮🇱&nbsp;Israel (originally from 🇺🇦&nbsp;Ukraine.)
 
@@ -24,6 +25,3 @@ Hello! I'm Pavlo Lisovyi, a passionate web developer based in 🇮🇱&nbsp;Isra
 Feel free to reach out if you want to collaborate, create something, or you know, just chat!
 
 You can contact me via [pavlo@lisovyi.net](mailto:pavlo@lisovyi.net).
-
----
-*Last updated: April 2024*
