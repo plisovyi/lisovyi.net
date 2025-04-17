@@ -15,6 +15,20 @@ remote_theme: jekyll/minima
 minima:
   skin: auto
 
+# Collections
+collections:
+  thoughts:
+    output: true
+    permalink: /thoughts/:slug/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "thoughts"
+    values:
+      layout: "post"
+
 # Exclude from processing.
 exclude:
   - vendor/
