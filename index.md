@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-*Last updated: April 2024*
+*Last updated: September 2025*
 
 Hello! I'm Pavlo Lisovyi, a passionate web developer based in 🇮🇱&nbsp;Israel (originally from 🇺🇦&nbsp;Ukraine.)
 
@@ -9,14 +9,14 @@ Hello! I'm Pavlo Lisovyi, a passionate web developer based in 🇮🇱&nbsp;Isra
 
 * Husband of the best woman in the world
 * Father of two incredible brothers
-* Roommate of three israeli ex-street cats
+* Roommate of two israeli ex-street and one straight street cats
 * Favorite human of one ~~land cloud~~ samoyed dog
 * Raised 2 pigeons from hatchlings to adults
 * Chronic sciatica and back pain survivor
 
 ## Professional
 
-* Working at Wix on interesting things
+* Working on https://dazl.dev infrastructure
 * 16+ years of commercial experience
 * "Senior ass-kicker at resolving all that goes wrong"
 
