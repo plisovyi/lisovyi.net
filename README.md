@@ -18,8 +18,11 @@ RUBY_VERSION=$(cat .ruby-version)
 rbenv install $RUBY_VERSION
 rbenv local $RUBY_VERSION
 
+# You may need to do initialize rbenv shell integration:
+rbenv init
+
 # Install dependencies
-gem install bundler
+sudo gem install bundler
 bundle install
 ```
 
