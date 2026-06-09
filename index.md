@@ -2,7 +2,7 @@
 layout: home
 ---
 
-*Last updated: September 2025*
+*Last updated: June 2026*
 
 Hello! I'm Pavlo Lisovyi, a passionate web developer based in 🇮🇱&nbsp;Israel (originally from 🇺🇦&nbsp;Ukraine.)
 
