@@ -13,9 +13,7 @@ A collection of short thoughts, notes, and ideas. These are informal and unpolis
         <a href="{{ thought.url | relative_url }}">{{ thought.title }}</a>
       </h2>
       <div class="thought-excerpt">
-        <a href="{{ thought.url | relative_url }}" class="excerpt-link">
           {{ thought.excerpt }}
-        </a>
       </div>
     </div>
   {% endfor %}
